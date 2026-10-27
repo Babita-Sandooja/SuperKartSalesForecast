@@ -10,7 +10,7 @@ st.title(" SuperKart Sales Forecasting & Predictive System")
 st.write("Operationalize your sales predictions using our interactive machine learning deployment portal.")
 
 # Retrieve backend URL from environment variables (defaults to codespace port 5000)
-BACKEND_URL = os.environ.get("BACKEND_URL", "http://localhost:5000")
+BACKEND_URL = os.environ.get("BACKEND_URL", "http://backend:5000")
 
 # Sidebar Navigation
 option = st.sidebar.selectbox("Select Mode", ["Single Prediction (Online)", "Batch Prediction (CSV)"])
